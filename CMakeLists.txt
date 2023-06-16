@@ -19,3 +19,7 @@ enable_testing()
 add_subdirectory(tests)
 
 include("etc/tests.cmake")
+find_package(OpenMP)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(MyTarget PUBLIC OpenMP::OpenMP_CXX)
+endif()
