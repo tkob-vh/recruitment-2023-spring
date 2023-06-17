@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSpMM.a  CMakeFiles/SpMM.dir/src/Matrices.cc.o CMakeFiles/SpMM.dir/src/SpMM_base.cc.o CMakeFiles/SpMM.dir/src/SpMM_opt.cc.o
+/usr/bin/ranlib libSpMM.a

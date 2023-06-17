@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Matrices.hh
+vector
+-
+string
+-
+tuple
+-
+
+../include/SpMM.hh
+Matrices.hh
+../include/Matrices.hh
+timer.hh
+../include/timer.hh
+
+../utils/timer.hh
+chrono
+-
+iostream
+-
+string
+-
+
+/home/yyx/task/23/recruitment-2023-spring/tests/SpMM_test.cc
+timer.hh
+/home/yyx/task/23/recruitment-2023-spring/tests/timer.hh
+Matrices.hh
+/home/yyx/task/23/recruitment-2023-spring/tests/Matrices.hh
+SpMM.hh
+/home/yyx/task/23/recruitment-2023-spring/tests/SpMM.hh
+cassert
+-
+
